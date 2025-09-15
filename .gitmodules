@@ -4,3 +4,6 @@
 [submodule "c950-final"]
 	path = c950-final
 	url = git@github.com:tommyyv/c950-final.git
+[submodule "test-full-stack"]
+	path = test-full-stack
+	url = git@github.com:tommyyv/test-full-stack.git
