@@ -7,6 +7,3 @@
 [submodule "test-full-stack"]
 	path = test-full-stack
 	url = git@github.com:tommyyv/test-full-stack.git
-[submodule "teevu"]
-	path = teevu
-	url = git@github.com:tommyyv/teevu.git
