@@ -1,0 +1,18 @@
+---
+import type { ResumeItem } from '../types/index.type';
+type Props = ResumeItem;
+
+const { title, company, date } = Astro.props;
+---
+
+<a
+  href={company.url}
+  class="py-3 flex items-center justify-between group-hover:opacity-60 hover:!opacity-100 transition-opacity"
+>
+  <div class="flex items-center gap-4">
+    <div>
+      <h3 class="font-medium">{title}</h3>
+      <p class="text-sm opacity-60">{company.name} | {date}</p>
+    </div>
+  </div>
+</a>

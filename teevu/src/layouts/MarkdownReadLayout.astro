@@ -1,0 +1,16 @@
+---
+import { featuredPageContent } from 'src/data';
+import Layout from './Layout.astro';
+const { frontmatter } = Astro.props;
+---
+
+<Layout seo={featuredPageContent.seo}>
+  <section class="mt-10 max-w-2xl mx-auto px-6">
+    <h1 class="text-3xl">{frontmatter.title}</h1>
+    <p class="opacity-60 mb-4 subtitle">
+      {frontmatter.date}>
+    </p>
+    <hr />
+    <slot />
+  </section>
+</Layout>
