@@ -79,6 +79,7 @@ gather quick information on how the inventory is looking.
 
 This is what the schema will look like (entity); this should be a mirror representation of the data model itself.
 
+```
 id: PK
 name: String
 model: String
@@ -86,6 +87,7 @@ barcode: String
 quantity: Integer
 initial_entry: DateTime
 last_updated: DateTime
+```
 
 Logic for name: asset's identifier
 Logic for barcode & model: validates the barcode scanned matches what the model is.
