@@ -10,3 +10,6 @@
 [submodule "teevu"]
 	path = teevu
 	url = git@github.com:tommyyv/teevu.git
+[submodule "arduino"]
+	path = teevu
+	url = git@github.com:tommyyv/arduino.git
