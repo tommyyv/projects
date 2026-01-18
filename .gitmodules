@@ -11,5 +11,5 @@
 	path = teevu
 	url = git@github.com:tommyyv/teevu.git
 [submodule "arduino"]
-	path = teevu
-	url = git@github.com:tommyyv/arduino.git
+	path = arduino
+	url = https://github.com/tommyyv/arduino.git
