@@ -13,3 +13,6 @@
 [submodule "arduino"]
 	path = arduino
 	url = https://github.com/tommyyv/arduino.git
+[submodule "capy_tui"]
+	path = capy_tui
+	url = https://github.com/tommyyv/capy_tui.git
